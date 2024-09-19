@@ -217,6 +217,6 @@ let handler = async (m, { conn, usedPrefix, command, text }) => {
 *────────────────⟢*`, '*⚜𝐀𝐘𝐀𝐍𝐎𝐊𝐎𝐉𝐈 𝐁𝐎𝐓⚜*', '*⚜𝐀𝐘𝐀𝐍𝐎𝐊𝐎𝐉𝐈 𝐁𝐎𝐓⚜*', messages, m);
 }
 
-handler.command = /^(اوامر1)$/i; // Command to trigger the handler function
+handler.command = /^(اوامر)$/i; // Command to trigger the handler function
 
 export default handler;
