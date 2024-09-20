@@ -5,7 +5,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
     conn.tebakbendera = conn.tebakbendera ? conn.tebakbendera : {}
     let id = m.chat
     if (id in conn.tebakbendera) {
-        conn.reply(m.chat, '⌯ هناك اسئلة لم يتم الاجابة عنها', conn.tebakbendera[id][0])
+        conn.reply(m.chat, '⌯في سؤال موجود لازم يخلص عشان اديك عين تانيه💗', conn.tebakbendera[id][0])
         throw false
     }
     let src = await (await fetch('https://raw.githubusercontent.com/Darkshadow201293/ShadowMedia/main/games/eye.json')).json()
