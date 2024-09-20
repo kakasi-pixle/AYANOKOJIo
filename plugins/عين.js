@@ -11,9 +11,12 @@ let handler = async (m, { conn, command, usedPrefix }) => {
     let src = await (await fetch('https://raw.githubusercontent.com/Darkshadow201293/ShadowMedia/main/games/eye.json')).json()
   let json = src[Math.floor(Math.random() * src.length)]
     let caption = `
-الــوقــت ⟣ ⌊${(timeout / 1000).toFixed(2)}⌉
-الــجـائـزه ⟣ ⌊${poin}⌉
+⏰الــوقــت ⟣ ⌊${(timeout / 1000).toFixed(2)}⌉
+
+💲الــجـائـزه ⟣ ⌊${poin}⌉
+
 > استخدم ${usedPrefix} تلميح للجواب`.trim()
+
     conn.tebakbendera[id] = [
         await conn.sendFile(m.chat, json.img, 'shadow.jpg', caption, m),
         json, poin,
