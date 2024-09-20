@@ -12,8 +12,8 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   if (!age) throw '✳️ age cannot be empty'
   if (name.length >= 30) throw '*✳️ اي يسطا كل دا اسم قلله شويه*' 
   age = parseInt(age)
-  if (age > 50) throw '*👴🏻 اي يا جدو عايز تلعب بالبوت*'
-  if (age < 10) throw '*🚼  روح كمل رضاعه*'
+  if (age > 50) throw '*👴🏻 يرجي ادخال عمر صحيح يا جدو*'
+  if (age < 10) throw '*🚼  لازم تكون اعلي من 10 يا طفل*'
   user.name = name.trim()
   user.age = age
   user.regTime = + new Date
