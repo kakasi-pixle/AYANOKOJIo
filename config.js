@@ -16,35 +16,35 @@ global.isBaileysFail = false
 global.defaultLenguaje = 'es';
 
 global.owner = [
-  ['201211231685', '👑 Mikey - Creador 👑', true],
-  ['201211231685', '💫 Mystic - Collaborator 2 💫', true],
-  ['201550680822', '💫 shawarma - owner  ', true],
-  ['201211231685'],
-  ['201211231685'],
-  ['201211231685'],
-  ['201211231685'],
-  ['201211231685'], 
-  ['201211231685'],  
-  ['201211231685'],
-  ['201211231685'],
-  ['201211231685'],
-  ['201211231685'], 
-  ['201211231685'], 
-  ['201211231685'],
-  ['201211231685'],
-  ['201211231685'],
-  ['201211231685'],
-  ['201211231685'], 
-  ['201211231685'],
-  ['201211231685'],
-  ['201211231685'],
-  ['201211231685'],
-  ['201211231685'],
-  ['201211231685']
+  ['201211231685', '👑 Mystic - Creador 👑', true],
+  ['201550680822', '💫 Mystic - Collaborator 2 💫', true],
+  ['201211231685', '💫 Mystic - Collaborator 3 💫', true],
+  ['593968585283'],
+  ['5492266466080'],
+  ['5218442114446'],
+  ['59894808483'],
+  ['593980586516'], 
+  ['595975740803'],  
+  ['5492266613038'],
+  ['50497150165'],
+  ['51906662557'],
+  ['573183650526'], 
+  ['5217441298510'], 
+  ['5217294888993'],
+  ['595992611272'],
+  ['5219992843892'],
+  ['5493795319019'],
+  ['573147616444'], 
+  ['5219991402134'],
+  ['5219996125657'],
+  ['5492215034412'],
+  ['584125778026'],
+  ['5492964650915'],
+  ['5218444937407']
 ];
 
-global.suittag = ['201211231685'];
-global.prems = ['201211231685'];
+global.suittag = ['5219993404349'];
+global.prems = ['51995386439'];
 
 // API
 global.BASE_API_DELIRIUS = "https://deliriusapi-official.vercel.app";
@@ -64,7 +64,7 @@ global.imagen4 = fs.createReadStream('./src/assets/images/menu/languages/en/menu
 global.imagen5 = fs.createReadStream('./src/assets/images/menu/languages/ru/menu.png');*/
 
 global.imagen1 = fs.readFileSync('./src/assets/images/menu/languages/es/menu.png');
-https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=global.imagen2 = fs.readFileSync('./src/assets/images/menu/languages/pt/menu.png');
+global.imagen2 = fs.readFileSync('./src/assets/images/menu/languages/pt/menu.png');
 global.imagen3 = fs.readFileSync('./src/assets/images/menu/languages/fr/menu.png')
 global.imagen4 = fs.readFileSync('./src/assets/images/menu/languages/en/menu.png')
 global.imagen5 = fs.readFileSync('./src/assets/images/menu/languages/ru/menu.png')
@@ -83,7 +83,7 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 global.wm2 = `${dia} ${fecha}\nThe Mystic - Bot`;
 global.gt = 'The Mystic - Bot';
 global.mysticbot = 'The Mystic - Bot';
-global.channel = 'https://whatsapp.com/channel/0029VanZjKLKGGGQNpGyhs0w';
+global.channel = 'https://whatsapp.com/channel/0029Vaein6eInlqIsCXpDs3y';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '*_[ ⏳ ] Cargando..._*';
@@ -110,7 +110,10 @@ global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage':
 global.multiplier = 99;
 global.flaaa = [
   'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
-  olor=%23101820&text=',
+  'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+  'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+  'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
+  'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=',
 ];
 //* ************************
 
