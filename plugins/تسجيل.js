@@ -20,8 +20,9 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
   m.reply(`
-┌─「 *التسجيل* 」─
+┌─「 *التسجيل* 」┌─
 ▢ *الاسم:* *${name}*
+▢ *تم تسجيلك بنجاح*
 ▢ *العمر* : *${age} سنه*
 ▢ *الرقم التعرفي* :
 ${sn}
